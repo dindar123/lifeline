@@ -1,4 +1,4 @@
-var vkapi = require('./vkapi');
+var vkapi = require('./vkapi.js');
 
 //Lets require/import the HTTP module
 var http = require('http');
