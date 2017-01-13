@@ -12,7 +12,7 @@ function handleRequest(request, response){
 var server = http.createServer(handleRequest);
 
 //Lets start our server
-server.listen(PORT, function(){
+server.listen(function(){
     //Callback triggered when server is successfully listening. Hurray!
-    console.log("Server listening on: https://chernika.herokuapp.com/:%s", PORT);
+    console.log("Server listening on: https://chernika.herokuapp.com/:%s");
 });
